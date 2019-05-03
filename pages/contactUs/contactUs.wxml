@@ -1,0 +1,45 @@
+<!--pages/contactUs/contactUs.wxml-->
+<view class='title'>
+  <image src='https://mmbiz.qpic.cn/mmbiz_jpg/8qu48ghsbUXLeqc2VqkpRPIugm7QowVajCKvADl8JewRE2xou8VpOoTdC4eADj80zcablAkvEIC8Jx9mfWfknw/0?wx_fmt=jpeg'></image>
+  <view class=''>联系方式</view>
+</view>
+
+<view class='body' style='margin-top: 50rpx;'>
+  <view class='contact' style='line-height:80rpx;'>
+    <image src='https://mmbiz.qpic.cn/mmbiz_png/8qu48ghsbUXLeqc2VqkpRPIugm7QowVax31Tm1PTFQtdUaeFELeQGHiak4yicTKqK1ZCHX7WVUB73gBrPkdM57GQ/0?wx_fmt=png' class='contactIcon'></image>
+    <text>团契负责人</text>
+  </view>
+  <view style='line-height:80rpx;'>Name: 信宏哥</view>
+  <view style='line-height:80rpx;'>
+   <text>WeChat ID: </text> <text style='font-weight: bold'>TalkwithEnoch</text>
+  </view>
+</view>
+
+<image src='http://pic.90sjimg.com/design/00/07/85/23/59112ce56ee7c.png' style='width:750rpx; height:160rpx;'></image>
+
+<view class='body'>
+  <view class='contact' style='line-height:80rpx;'>
+    <image src='https://mmbiz.qpic.cn/mmbiz_png/8qu48ghsbUXLeqc2VqkpRPIugm7QowVadAPKQBeeqJ19Vghzwm2yseA7xA4I9FIeiaR3TAaXpS6KWxwFu6pYdPw/0?wx_fmt=png' class='contactIcon' style='width: 50rpx; height: 50rpx;'></image>
+    <text style='line-height:80rpx;'>公众号主页</text>
+  </view>
+  <view style='line-height: 80rpx;'>Name: 宾州州立心家团契</view>
+  <image src='https://mmbiz.qpic.cn/mmbiz_jpg/8qu48ghsbUWnpESar9QCQmCDRfIHGSBza62sR0NHic2QnLYAZYkeqIOSILCMCiacdicpb22RIk4uNRhpFIgUOyZRQ/0?wx_fmt=jpeg' style='width: 258rpx; height: 258rpx;' bindtap='previewImage'></image>
+</view>
+
+<image src='http://pic.90sjimg.com/design/00/07/85/23/59112ce56ee7c.png' style='width:750rpx; height:160rpx;'></image>
+
+<view class='body'>
+  <view class='contact' style='line-height: 80rpx;'>
+    <image src='https://mmbiz.qpic.cn/mmbiz_png/8qu48ghsbUXLeqc2VqkpRPIugm7QowVax31Tm1PTFQtdUaeFELeQGHiak4yicTKqK1ZCHX7WVUB73gBrPkdM57GQ/0?wx_fmt=png' class='contactIcon'></image>
+    <text>教会ride负责人</text>
+  </view>
+  <view style='line-height: 80rpx;'>Name: 罗军哥</view>
+  <view style='line-height: 80rpx;'>
+  <text>WeChat ID: </text> <text style='font-weight: bold'>jluo1234</text>
+  </view>
+</view>
+
+<image src='http://pic.90sjimg.com/design/00/07/85/23/59112ce56ee7c.png' style='width:750rpx; height:160rpx;'></image>
+
+<!--footer-->
+<view class='rights'>Home of Hearts 2019</view>

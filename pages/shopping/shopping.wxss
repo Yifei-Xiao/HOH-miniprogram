@@ -1,0 +1,71 @@
+/* pages/shopping/shopping.wxss */
+.title{
+  position: relative;
+  padding-bottom: 0rpx;
+}
+
+.title image{
+  width: 750rpx;
+  height: 301rpx;
+  position: absolute;
+  z-index: -1;
+}
+
+.title view{
+  padding-top: 250rpx;
+  font-size: 60rpx;
+  line-height: 42rpx;
+  color: pink;
+  font-weight: bold;
+}
+
+.icon{
+  margin-top: 50rpx;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.clothicon{
+  width: 50rpx;
+  height: 50rpx;
+}
+
+.bodycontainer{
+  display: flex;
+}
+
+.description{
+  text-align: center;
+  margin-top: 20rpx;
+  line-height: 50rpx;
+  margin-left: 20rpx;
+}
+
+.piccontainer{
+  margin-top: 15rpx;
+  position: relative;
+}
+
+.pic{
+  width: 450rpx;
+  height: 250rpx;
+  margin-left: 30rpx;
+}
+
+.line{
+margin: 0 auto;
+width: 750rpx;
+height: 2rpx;
+background-color: #D8D8D8;
+}
+
+.button{
+  border:5px solid #ffcc00;background:#fffff7;
+  border-radius: 20rpx;
+  text-align: center;
+  color: skyblue;
+  margin: 50rpx;
+  margin-left: 200rpx;
+  margin-right: 200rpx;
+}

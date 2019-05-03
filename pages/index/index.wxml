@@ -1,0 +1,68 @@
+<!--title part-->
+<view class='HOH-title'>
+  <image class='HOH-titleImage' src='https://mmbiz.qpic.cn/mmbiz_jpg/8qu48ghsbUXLeqc2VqkpRPIugm7QowVaqL1X0b0ECW2l9vGR5ib1iaMbvpXLLGpm0IK3hgPtMem494ZXXkeicIkFw/0?wx_fmt=jpeg'></image>
+  <view>
+    <view class = 'HOH-titleCN'>心家团契</view>
+    <view class = 'HOH-titleEN' >Home of Hearts</view>
+  </view>
+</view>
+
+<!--body part-->
+<!--first row-->
+<view class='HOH-body'>
+  <view class='HOH-bodyContainer'  bindtap='onTapAboutUs'>
+    <image class='HOH-bodyImage' src='https://mmbiz.qpic.cn/mmbiz_png/8qu48ghsbUXOqjFJ6nApRP1K8W61HD3IpFRnB2b33fUmwicMAVVliamYryqpuf8LpCHWanbWb4WTHpicia6XHPicxqg/0?wx_fmt=png' style='height: 75rpx; width:75rpx;'></image>
+    <view class='HOH-bodyText'>关于心家</view>
+  </view>
+  <view class='HOH-bodyContainer' bindtap='onTapContact'>
+    <image class='HOH-bodyImage' src='https://mmbiz.qpic.cn/mmbiz_png/8qu48ghsbUXOqjFJ6nApRP1K8W61HD3IpiccDemWld1QMEX9SRsyfkP8V2ruPDRLmnUQ9CohkEcOEudStKobXHw/0?wx_fmt=png' style='height:75rpx;'></image>
+    <view class='HOH-bodyText'>联系方式</view>
+  </view>
+  <view class='HOH-bodyContainer' bindtap='onTapEvent'>
+    <image class='HOH-bodyImage' src='https://mmbiz.qpic.cn/mmbiz_png/8qu48ghsbUXOqjFJ6nApRP1K8W61HD3IOl2NEa9y7bwFKRJ85iadkxxvN6eN0OI2yGxHEwL5xp1L6u2TQDTxNhA/0?wx_fmt=png' style='height:75rpx;'></image>
+    <view class='HOH-bodyText'>活动预告</view>
+  </view>
+</view>
+
+<!--second row-->
+<view class='HOH-body'>
+  <view class='HOH-bodyContainer' bindtap='onTapLocation'>
+    <image class='HOH-bodyImage' src='https://mmbiz.qpic.cn/mmbiz_png/8qu48ghsbUXOqjFJ6nApRP1K8W61HD3I4uggzlHSE0hbHnib8q5LZdRFt9RVJSqqicRtPvXYVBGmovuS9C03ZcLw/0?wx_fmt=png' style='height:75rpx;'></image>
+    <view class='HOH-bodyText'>聚会场所</view>
+  </view>
+
+  <view class='HOH-bodyContainer' bindtap='onTapReview'>
+    <image class='HOH-bodyImage' src='https://mmbiz.qpic.cn/mmbiz_png/8qu48ghsbUXOqjFJ6nApRP1K8W61HD3I3seccTWxoSjfWoGZQgwLLzBJROt6giauObDB3m9lSZ4vLjr3bJxq68g/0?wx_fmt=png' style='height: 75rpx; width:100rpx;'></image>
+    <view class='HOH-bodyText'>精彩回顾</view>
+  </view>
+
+  <view class='HOH-bodyContainer' bindtap='onTapShopping'>
+    <image class='HOH-bodyImage' src='https://mmbiz.qpic.cn/mmbiz_png/8qu48ghsbUULeFdjooyzgjjscGbBVpXWh4Ezr6WxatibNJenLChTPpwbraSca90jiaicNTVRlbKUjPVT1qvoHzBVw/0?wx_fmt=png' style='height: 75rpx;width:75rpx;'></image>
+    <view class='HOH-bodyText'>心家周边</view>
+  </view>
+
+</view>
+
+<!--banner-->
+<view class='banner'>
+  <swiper indicator-dots="{{indicatorDots}}" autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}" circular="true">
+
+    <!--Welcome to HOH--> 
+    <swiper-item> 
+      <image src="https://mmbiz.qpic.cn/mmbiz_png/8qu48ghsbUXOqjFJ6nApRP1K8W61HD3IQkO3nBHrAufmcpJdL8ehr9UBu4QicSqZPJz4fpsqaQCzDuQBARovUUw/0?wx_fmt=png" style='width:500rpx; height:250rpx' data-post-id='aboutUs' bindtap='onTapBanner'></image>
+    </swiper-item>
+
+    <!--2019 Grad-->
+    <swiper-item> 
+      <image src="https://mmbiz.qpic.cn/mmbiz_jpg/8qu48ghsbUXLeqc2VqkpRPIugm7QowVaITPYGRDWialkANE6PiaccibT0Qw64mpV70wicB3bfzOr0H0fG756ibOV5Lw/0?wx_fmt=jpeg" style='width:500rpx; height:250rpx' data-post-id='2019/2019_Spring_Grad' bindtap='onTapAlbum'></image>
+    </swiper-item>
+
+    <!--Ignite-->
+    <swiper-item>
+      <image src='https://mmbiz.qpic.cn/mmbiz_png/8qu48ghsbUXLeqc2VqkpRPIugm7QowVaNVucgEpcIx603wvdzjNWPPPia5ZBPckwQ3ZCicKnZ2YfghD1fQXRJqiaA/0?wx_fmt=png' style='width:500rpx; height:250rpx' bindtap='onTapAlbum' data-post-id='2019/Dianran'></image>
+    </swiper-item>
+  </swiper>
+</view>
+
+<!--footer-->
+<view class='rights'>Home of Hearts 2019</view>

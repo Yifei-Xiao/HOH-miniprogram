@@ -1,0 +1,37 @@
+/* pages/contactUs/contactUs.wxss */
+.title{
+  position: relative;
+  padding-bottom: 0rpx;
+}
+
+.title image{
+  width: 750rpx;
+  height: 301rpx;
+  position: absolute;
+  z-index: -1;
+}
+
+.title view{
+  padding-top: 250rpx;
+  font-size: 60rpx;
+  line-height: 42rpx;
+  color:crimson;
+  font-weight: bold;
+}
+
+.body{
+  text-align: center;
+}
+
+.contact{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.contactIcon{
+  vertical-align: middle;
+  width: 42rpx;
+  height: 50rpx;
+  padding-right: 10rpx;
+}

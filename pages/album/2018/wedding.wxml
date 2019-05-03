@@ -1,0 +1,27 @@
+<!--pages/album/xunguang.wxml-->
+<view class='title'>
+  <text style='font-weight:bold'>Rona & Nick 婚礼</text>
+</view>
+<view class='title'>
+  <view class='location' style='line-height:80rpx;'>
+    <image src='https://mmbiz.qpic.cn/mmbiz_png/8qu48ghsbUXOqjFJ6nApRP1K8W61HD3IOkxGVJGfOQib6phRHp3sn1RwcOPhDdQR4wjVV5Fnh1r0ib1MGibYniafcw/0?wx_fmt=png' class='locationIcon'></image>
+    <text>5/12</text>
+  </view>
+</view>
+
+<view class='title'>
+  <view class='location' style='line-height:80rpx;'>
+    <image src='https://mmbiz.qpic.cn/mmbiz_png/8qu48ghsbUXOqjFJ6nApRP1K8W61HD3IiaSHsGIKQryxvgjTg2N7SmnTibOLGra0IAlSXbGKcwEvB0ywFaiakgBNg/0?wx_fmt=png' class='locationIcon'></image>
+    <text>磐石宣道会</text>
+  </view>
+</view>
+
+<!--Start need for video-->
+<view class='title' hidden="{{tvphide}}">
+    <txv-video vid="y08662enhfo" playerid="txv1" autoplay="{{false}}"></txv-video>
+</view>
+<!--End need for video-->
+
+<view class='body' wx:for='{{img}}' wx:for-item="image">
+    <image src='{{image}}' data-src='{{image}}' class='img' bindtap='previewImage'></image>
+</view>

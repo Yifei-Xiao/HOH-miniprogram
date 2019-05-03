@@ -1,0 +1,30 @@
+<view class='title'>
+  <image src='https://mmbiz.qpic.cn/mmbiz_png/8qu48ghsbUVsuDFJlzfo72taiajTpCcibHL2BlcAhpCC5nvXpV672V8viaXD98r1FJU1UXz8AKCicYA9TtVlOebuEQ/0?wx_fmt=png'></image>
+  <view>聚会场所</view>
+</view>
+
+<view class='body'>
+  <view class='location' style='line-height:80rpx;'>
+    <image src='https://mmbiz.qpic.cn/mmbiz_png/8qu48ghsbUXLeqc2VqkpRPIugm7QowVagSicet1rELNbat4GgM0mtdpLA6O1iaQZpHQib6lR4ickWIR9jcbGJOCZJA/0?wx_fmt=png' class='locationIcon'></image>
+    <text>团契聚会</text>
+  </view>
+  <view style='line-height:80rpx;'>Location: Osmond Lobby</view>
+  <view style='line-height:80rpx;'>Time: Friday 6:00 P.M.</view>
+</view>
+
+<image src='http://s11.sinaimg.cn/bmiddle/001JLozazy7cqdOJLTkba&amp;690' style='width:750rpx; height:120rpx;'></image>
+
+<view class='body'>
+    <view class='location' style='line-height:80rpx;'>
+    <image src='https://mmbiz.qpic.cn/mmbiz_png/8qu48ghsbUXLeqc2VqkpRPIugm7QowVagPO5L2tKD4pgpuKJCJqfbqSMjrYukQNHN4cZsp2pJy7XWktlOfBKAQ/0?wx_fmt=png' class='locationIcon'></image>
+    <text> 主日敬拜</text>
+  </view>
+  <view style='line-height:80rpx;'>Location: 磐石宣道会</view>
+  <view style='line-height:80rpx;'>Time: Sunday 10:00 A.M.</view>
+</view>
+
+<image src='http://s11.sinaimg.cn/bmiddle/001JLozazy7cqdOJLTkba&amp;690' style='width:750rpx; height:120rpx;'></image>
+
+<!--footer-->
+<view class='rights'>Home of Hearts 2019</view>
+

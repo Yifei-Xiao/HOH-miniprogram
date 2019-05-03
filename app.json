@@ -1,0 +1,36 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/location/location",
+    "pages/aboutUs/aboutUs",
+    "pages/contactUs/contactUs",
+    "pages/event/event",
+    "pages/review/review",
+    "pages/shopping/shopping",
+    "pages/album/2019/Dianran",
+    "pages/album/2019/Spring_Fest",
+    "pages/album/2019/2019_Spring_Grad",
+    "pages/album/2018/2018BBQ",
+    "pages/album/2018/2018CornMaze",
+    "pages/album/2018/2018Halloween",
+    "pages/album/2018/2018_Fall_Grad",
+    "pages/album/2018/gameNight",
+    "pages/album/2018/grad",
+    "pages/album/2018/wedding",
+    "pages/album/2018/xunguang",
+    "pages/album/2017/bigevent"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "Home of Hearts",
+    "navigationBarTextStyle": "black"
+  },
+  "plugins": {
+    "tencentvideo": {
+      "version": "1.3.0",
+      "provider": "wxa75efa648b60994b"
+    }
+  },
+  "sitemapLocation": "sitemap.json"
+}

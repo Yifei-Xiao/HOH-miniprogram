@@ -1,0 +1,52 @@
+.HOH-title{
+  display: flex;
+  margin-top: 40rpx;
+  margin-left: 50rpx;
+}
+.HOH-titleCN{
+  letter-spacing: 10rpx;
+  margin-top:30rpx;
+  font-size: 50rpx;
+  line-height: 66rpx;
+}
+
+.HOH-titleEN{
+  margin-left: 50rpx;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-size: 20rpx;
+  line-height: 28rpx;
+}
+
+.HOH-titleImage{
+  width:130rpx;
+  height: 130rpx;
+}
+
+.HOH-body{
+  margin-top:100rpx;
+  display: flex;
+}
+
+.HOH-bodyContainer{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-left: 65rpx;
+  margin-right: 65rpx;
+}
+
+.HOH-bodyText{
+  font-size: 30rpx;
+  line-height: 42rpx;
+  padding-top: 20rpx;
+}
+
+.HOH-bodyImage{
+  width: 60rpx;
+  height: 60rpx;
+}
+
+.banner{
+  margin-top: 100rpx;
+  margin-left: 125rpx;
+}

@@ -1,0 +1,32 @@
+/* pages/album/xunguang.wxss */
+.title{
+  margin-top: 50rpx;
+  text-align: center;
+  margin-bottom: 50rpx;
+  color: rgb(9, 126, 91)
+}
+
+.location{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.locationIcon{
+  vertical-align: middle;
+  width: 100rpx;
+  height: 100rpx;
+  padding-right: 10rpx;
+}
+
+.body{
+  float: left;
+  margin-left: 20rpx;
+  margin-top: 20rpx;
+  position: relative;
+}
+
+.img{
+  width: 350rpx;
+  height: 250rpx;
+}/* pages/album/bigevent.wxss */

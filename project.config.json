@@ -1,0 +1,80 @@
+{
+	"description": "项目配置文件。",
+	"packOptions": {
+		"ignore": []
+	},
+	"setting": {
+		"urlCheck": false,
+		"es6": true,
+		"postcss": true,
+		"minified": true,
+		"newFeature": true
+	},
+	"compileType": "miniprogram",
+	"libVersion": "2.0.4",
+	"appid": "wxc9b4c70208d3ba67",
+	"projectname": "HOHmp",
+	"isGameTourist": false,
+	"simulatorType": "wechat",
+	"simulatorPluginLibVersion": {},
+	"condition": {
+		"search": {
+			"current": -1,
+			"list": []
+		},
+		"conversation": {
+			"current": -1,
+			"list": []
+		},
+		"plugin": {
+			"current": -1,
+			"list": []
+		},
+		"game": {
+			"currentL": -1,
+			"list": []
+		},
+		"miniprogram": {
+			"current": 5,
+			"list": [
+				{
+					"id": -1,
+					"name": "aboutUs",
+					"pathName": "pages/aboutUs/aboutUs",
+					"query": ""
+				},
+				{
+					"id": 1,
+					"name": "bigevent",
+					"pathName": "pages/album/bigevent",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "event",
+					"pathName": "pages/event/event",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "review",
+					"pathName": "pages/review/review",
+					"query": ""
+				},
+				{
+					"id": 4,
+					"name": "shopping",
+					"pathName": "pages/shopping/shopping",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "wedding",
+					"pathName": "pages/album/2018/wedding",
+					"query": "",
+					"scene": null
+				}
+			]
+		}
+	}
+}

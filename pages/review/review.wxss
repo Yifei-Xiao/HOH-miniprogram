@@ -1,0 +1,76 @@
+.title{
+  position: relative;
+  padding-bottom: 0rpx;
+}
+
+.title image{
+  width: 750rpx;
+  height: 301rpx;
+  position: absolute;
+  z-index: -1;
+}
+
+.title view{
+  padding-top: 250rpx;
+  font-size: 60rpx;
+  line-height: 42rpx;
+  color: yellow;
+  font-weight: bold;
+}
+
+.body{
+  margin-top: 50rpx;
+  text-align: center;
+}
+
+.year{
+  background: orange;
+  color: white;
+  text-align: center;
+  margin-left: 40rpx;
+  border-radius: 50rpx;
+  margin-right: 520rpx;
+}
+
+.line{
+  height: 150rpx;
+  border-left: 5rpx solid orange;
+  margin-left: 135rpx;
+}
+
+.dot{
+  width:70rpx;
+  height: 70rpx;
+  color: orange;
+  border: 10rpx solid orange;
+  border-radius: 50%;
+  font-size: 25rpx;
+  line-height: 70rpx;
+  text-align: center;
+  margin-left: 91.56rpx;
+}
+
+.pic{
+  width: 450rpx;
+  height: 250rpx;
+  z-index: 0;
+  position: relative;
+  top: 50rpx;
+  left: 40rpx;
+  border-radius: 0rpx;
+}
+
+.bodycontainer{
+  border:5rpx solid orange;
+  background:orange;
+  color:white;
+  text-align: center;
+  width: 446rpx;
+  position: relative;
+  top: -23rpx;
+  left: 40rpx;
+}
+
+.eventcontainer{
+  display: flex;
+}

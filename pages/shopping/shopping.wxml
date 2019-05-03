@@ -1,0 +1,72 @@
+<!--pages/shopping/shopping.wxml-->
+<view class='title'>
+  <image src='https://mmbiz.qpic.cn/mmbiz_png/8qu48ghsbUULeFdjooyzgjjscGbBVpXWFWQlw30UrefV0c2HN5N2KAiaHM9ynicj6QzdKicjluypZngZpGZ083UuQ/0?wx_fmt=png'></image>
+  <view>心家周边</view>
+</view>
+
+<view class='body'>
+  <!--Hoodie Part-->
+  <view class='icon'>
+    <image src='https://mmbiz.qpic.cn/mmbiz_png/8qu48ghsbUXzJqicvicmeXacllIPiadPu5rWJh1NsW1FicwtH6iaXpT14B7UfkzeucfcBuqN0otRQODwa5J9jddm4Yg/0?wx_fmt=png' class='clothicon'></image>
+    <text style='color: blue'>Hoodie</text>
+  </view>
+
+<view class='line'></view>
+
+  <view class='bodycontainer'>
+    <view class='description'>
+      <view>Size: </view>
+      <text>S/M/L/XL/XXL\n</text>
+      <view style='margin-top:100rpx;'>Color: </view>
+      <text style='color: pink'>Pink/</text>
+      <text style='color: red'>Red/</text>
+      <text style='color: navy'>Navy</text>
+      <view style='margin-top:100rpx;'>Price: </view>
+      <text>$25</text>
+    </view>
+    <view class='piccontainer'> 
+      <view wx:for='{{img}}' wx:for-item="image">
+        <image src='{{image}}' data-src='{{image}}' class='pic' bindtap='previewImage'></image>
+      </view>
+    </view>
+  </view>
+
+  <view class='line'></view>
+
+  <!--Tshirt part-->
+    <view class='icon'>
+    <image src='https://mmbiz.qpic.cn/mmbiz_png/8qu48ghsbUXzJqicvicmeXacllIPiadPu5rZTu4INlJJSqETibOe9QInQPGjJ28IiaBiccDPfiam3f4NV7m7K510BEpVA/0?wx_fmt=png' class='clothicon' style='height:40rpx;width:40rpx;margin-right:10rpx;'></image>
+    <text style='color: blue'>T-shirt</text>
+  </view>
+
+<view class='line'></view>
+
+  <view class='bodycontainer'>
+    <view class='description' style='margin-left:60rpx;'>
+      <view>Size: </view>
+      <text>XS/S/M/L\n</text>
+      <view style='margin-top:100rpx;'>Color: </view>
+      <text>Black</text>
+      <view style='margin-top:100rpx;'>Price: </view>
+      <text>$11</text>
+    </view>
+    <view class='piccontainer' style='margin-left:30rpx;'> 
+      <view wx:for='{{img2}}' wx:for-item="image">
+        <image src='{{image}}' data-src='{{image}}' class='pic' bindtap='previewImage2'></image>
+      </view>
+    </view>
+  </view>
+
+  <view class='line'></view>
+
+  
+  <!--
+  <view class='button' bindtap='onTapShopping'>点击报名</view>
+  -->
+  <view class='button'>购买请联系怡佳姐</view>
+
+  <text style='font-size:small;font-style:italic;margin:30rpx;'>“地上所有的，无论是地上的种子，是树上的果子，十分之一是耶和华的，是归给耶和华为圣的。" (利未记 27:30)</text>
+</view>
+
+<!--footer-->
+<view class='rights'>Home of Hearts 2019</view>

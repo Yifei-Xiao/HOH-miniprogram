@@ -1,0 +1,72 @@
+<!--pages/aboutUs/aboutUs.wxml-->
+<view class='title'>
+  <image src='https://mmbiz.qpic.cn/mmbiz_png/8qu48ghsbUWnpESar9QCQmCDRfIHGSBz02qlCHU4CicT50bI0lMnrVzG9P5PClAjJ0oAWc3o70TlVucNQaTocMQ/0?wx_fmt=png'></image>
+  <view>关于心家团契</view>
+</view>
+
+<view class='body'>
+  <text class='texttitle' style='color:lightgreen'>什么是心家团契</text>
+  <view class='firstPart'>
+      <text style='color: red'>心家</text>
+      <text>=心的家 \n</text>
+      <text style='color: red'>团契</text>
+      <text>=互相交流</text>
+  </view>
+
+    <view class='secondPart'>
+      <text style='color: red'>心家团契(Home of Hearts Fellowship)</text>
+      <text>成立于2012年。它是由State College本地唯一的华人基督教会：</text>
+      <text style='color: red'>磐石宣道会</text>
+      <text>的本科生小组成长而来。</text>
+    </view>
+</view>
+
+<view class='body' style='border:5rpx solid #cceff5;background:#fafcfd'>
+  <text class='texttitle' style='color:lightgreen; width:375rpx'>心家团契都在做什么</text>
+    <view class='secondPart'>
+      <text>心家团契在</text>
+      <text>Fall&Spring Semester</text>
+      <text style='color: blue'>每周五18:00</text>
+      <text>在Penn State Campus </text>
+      <text style='color: blue'>Osmand Building</text>
+      <text>聚会。 \n\n 聚会上我们： \n 一起吃</text>
+      <text style='color: deepskyblue'>美味的家乡美食</text>
+      <text>, \n 一起</text>
+      <text style='color: deepskyblue'>彼此聊天</text>
+      <text>, \n 一起</text>
+      <text style='color: deepskyblue'>嗨歌</text>
+      <text>, \n 一起</text>
+      <text style='color: deepskyblue'>了解基督教信仰</text>
+      <text>, \n 一起</text>
+      <text style='color: deepskyblue'>讨论信仰上以及学习上的困扰</text>
+      <text>等。</text>
+    </view>
+</view>
+
+<view class='body' style='border:5rpx dashed #a5b6c8;background:rgba(0, 255, 21, 0.02)'>
+  <text class='texttitle' style='color:lightgreen; width:280rpx'>心家团契有什么</text>
+  <view class='secondPart' style='text-indent:0'>
+    <view style='font-weight: bold'>
+      <text>这里有</text>
+      <text style='color: red'>热情的学长姐</text>
+      <text>, \n 这里有</text>
+      <text style='color: red'>美味的家乡饭菜</text>
+      <text>, \n 这里有</text>
+      <text style='color: red'>丰富精彩的活动</text>
+      <text>, \n 这里有</text>
+      <text style='color: red'>趣味圣经故事</text>
+      <text>。\n \n 这里是: </text>
+      <text style='color: red'>心家团契</text>
+      <text>! \n 耶稣</text>
+      <text style='color: red'>爱你</text>
+      <text>， 我们也</text>
+      <text style='color: red'>爱你</text>
+      <text>!</text>
+    </view>
+  </view>
+</view>
+
+<image src='https://mmbiz.qpic.cn/mmbiz_jpg/8qu48ghsbUXLeqc2VqkpRPIugm7QowVagRIetGDiao7iambyPHf19k5zqlsGXMlY2w7evJVSUO8Qyhib1KTibybdBQ/0?wx_fmt=jpeg' style='width:750rpx; height: 236rpx'></image>
+
+<!--footer-->
+<view class='rights'>Home of Hearts 2019</view>

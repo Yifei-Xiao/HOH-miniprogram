@@ -1,0 +1,273 @@
+<view class='title'>
+  <image src='https://mmbiz.qpic.cn/mmbiz_png/8qu48ghsbUXOqjFJ6nApRP1K8W61HD3IMFK2laQDR7AibVm9238n2AmJbAWRwOCKdY0ffbiaFbRs2SuJ0kYW8pZA/0?wx_fmt=png'></image>
+  <view>精彩回顾</view>
+</view>
+
+<view class='body'>
+  <!--复制eventcontainer，修改日期，背景图片，标题，bindTap-->
+  <view class='year' style='background:#87CEEB'>2019</view> 
+
+  <view class='eventcontainer'>
+    <view>
+        <view class='line' style='border-left: 5rpx solid #87CEEB;'></view>
+        <view class='dot' style='color: #87CEEB; border: 10rpx solid #87CEEB;'>4/26</view>
+        <view class='line' style='border-left: 5rpx solid #87CEEB;'></view>
+    </view>
+    <view>
+      <image src='https://mmbiz.qlogo.cn/mmbiz_jpg/8qu48ghsbUXLeqc2VqkpRPIugm7QowVaITPYGRDWialkANE6PiaccibT0Qw64mpV70wicB3bfzOr0H0fG756ibOV5Lw/0?wx_fmt=jpeg' class='pic' bindtap='onTap2019SpringGrad'></image>
+      <view class='bodycontainer'  style='border:5rpx solid #87CEEB; background:#87CEEB'>
+        <view style='font-weight:bold'>心家毕业会-2019Spring</view>
+      </view>
+    </view>
+  </view>
+
+  <view class='eventcontainer'>
+    <view>
+        <view class='line' style='border-left: 5rpx solid #87CEEB;'></view>
+        <view class='dot' style='color: #87CEEB; border: 10rpx solid #87CEEB;'>3/16</view>
+        <view class='line' style='border-left: 5rpx solid #87CEEB;'></view>
+    </view>
+    <view>
+      <image src='https://mmbiz.qlogo.cn/mmbiz_png/8qu48ghsbUXLeqc2VqkpRPIugm7QowVaNVucgEpcIx603wvdzjNWPPPia5ZBPckwQ3ZCicKnZ2YfghD1fQXRJqiaA/0?wx_fmt=png' class='pic' bindtap='onTapDianran'></image>
+      <view class='bodycontainer'  style='border:5rpx solid #87CEEB; background:#87CEEB'>
+        <view style='font-weight:bold'>点燃音乐会</view>
+      </view>
+    </view>
+  </view>
+
+
+  <view class='eventcontainer'>
+    <view>
+        <view class='line' style='border-left: 5rpx solid #87CEEB;'></view>
+        <view class='dot' style='color: #87CEEB; border: 10rpx solid #87CEEB;'>2/8</view>
+        <view class='line' style='border-left: 5rpx solid #87CEEB;'></view>
+    </view>
+    <view>
+      <image src='https://mmbiz.qpic.cn/mmbiz_png/8qu48ghsbUUJnFCW0CtX20ibFicoEcnVUtF5JqFyFjfiblzLO08HPNIOdKkZI0sVDYnunRIOwtaueEezENoxO8RCQ/0?wx_fmt=png' class='pic' bindtap='onTap2019Spring_Fest'></image>
+      <view class='bodycontainer'  style='border:5rpx solid #87CEEB; background:#87CEEB'>
+        <view style='font-weight:bold'>春节晚会-2019</view>
+      </view>
+    </view>
+  </view>
+
+
+  <!--以下为2018年内容，请勿修改-->
+  <view class='year'>2018</view>
+
+  <view class='eventcontainer'>
+    <view>
+        <view class='line'></view>
+        <view class='dot'>11/30</view>
+        <view class='line'></view>
+    </view>
+    <view>
+      <image src='https://mmbiz.qpic.cn/mmbiz_jpg/8qu48ghsbUUJnFCW0CtX20ibFicoEcnVUtGbyW4uIIURgYxyAWaL3JFU5MNW5ic3d3UA1RFY3tAPDonQcvaCria9gA/0?wx_fmt=jpeg' class='pic' bindtap='onTap2018FallGrad'></image>
+      <view class='bodycontainer'>
+        <view style='font-weight:bold'>心家毕业会-2018Fall</view>
+      </view>
+    </view>
+  </view>
+
+  <view class='eventcontainer'>
+    <view>
+        <view class='line'></view>
+        <view class='dot'>10/26</view>
+        <view class='line'></view>
+    </view>
+    <view>
+      <image src='https://mmbiz.qpic.cn/mmbiz_jpg/8qu48ghsbUVeoSzgP1LRuYKLa57A3S26yx5V1WDZ4jjLnJ9icJfsEm6MDjicN1OOWSJ7va2kGkEueibzWm1ryOydg/0?wx_fmt=jpeg' class='pic' bindtap='onTapHalloween'></image>
+      <view class='bodycontainer'>
+        <view style='font-weight:bold'>Halloween刻南瓜</view>
+      </view>
+    </view>
+  </view>
+
+  <view class='eventcontainer'>
+    <view>
+        <view class='line'></view>
+        <view class='dot'>9/15</view>
+        <view class='line'></view>
+    </view>
+    <view>
+      <image src='https://mmbiz.qpic.cn/mmbiz_jpg/8qu48ghsbUULeFdjooyzgjjscGbBVpXWqncfyhuRMPYHTnARDspRjeicNJeun66m4SMibRqaCGLkQIlzWNk2ETcQ/0?wx_fmt=jpeg' class='pic' bindtap='onTapCornMaze'></image>
+      <view class='bodycontainer'>
+        <view style='font-weight:bold'>2018 Corn-Maze</view>
+      </view>
+    </view>
+  </view>
+  
+  <view class='eventcontainer'>
+    <view>
+        <view class='line'></view>
+        <view class='dot'>8/25</view>
+        <view class='line'></view>
+    </view>
+    <view>
+      <image src='https://mmbiz.qpic.cn/mmbiz_jpg/8qu48ghsbUWOhnXNJdQiciacwUHpfNs9lhNNkQPiaFlTsroWicK4OaPhK0vLkmx5nrW6VbZNJlyyJqeaezPpqQ9Dibw/0?wx_fmt=jpeg' class='pic' bindtap='onTapBBQ'></image>
+      <view class='bodycontainer'>
+        <view style='font-weight:bold'>2018 BBQ</view>
+      </view>
+    </view>
+  </view>
+
+  <view class='eventcontainer'>
+    <view>
+        <view class='line'></view>
+        <view class='dot'>8/17</view>
+        <view class='line'></view>
+    </view>
+    <view>
+      <image src='https://mmbiz.qpic.cn/mmbiz_jpg/8qu48ghsbUXOlfYE0VjtHicL1V5xa2kxWTOMEIALNMCNBCs4qPWc78HgsjYKickJCo6LOkfHGfAE2ZWNKlACR2XA/0?wx_fmt=jpeg' class='pic' bindtap='onTapgame'></image>
+      <view class='bodycontainer'>
+        <view style='font-weight:bold'>Game Night</view>
+      </view>
+    </view>
+  </view>
+
+  <view class='eventcontainer'>
+    <view>
+        <view class='line'></view>
+        <view class='dot'>5/12</view>
+        <view class='line'></view>
+    </view>
+    <view>
+      <image src='https://mmbiz.qpic.cn/mmbiz_png/8qu48ghsbUXOqjFJ6nApRP1K8W61HD3IibOuaRfBIpETd0vcsVtHjDM5OFdK0EcpMcbUQ7SqLZuAudYRNS35iceQ/0?wx_fmt=png' class='pic' bindtap='onTapwedding'></image>
+      <view class='bodycontainer'>
+        <view style='font-weight:bold'>Rona & Nick 婚礼</view>
+      </view>
+    </view>
+  </view>
+
+  <view class='eventcontainer'>
+    <view>
+        <view class='line'></view>
+        <view class='dot'>4/28</view>
+        <view class='line'></view>
+    </view>
+    <view>
+      <image src='https://mmbiz.qpic.cn/mmbiz_jpg/8qu48ghsbUWKS3OJFSzRjLuhk2UppzIGYQeplGBdAVJ2wPNdicAnqUmeVRqCyCIQkX0HHCxsDdR9MjtlGicNGJiaA/0?wx_fmt=jpeg' class='pic' bindtap='onTapgrad'></image>
+      <view class='bodycontainer'>
+        <view style='font-weight:bold'>心家毕业会-2018 Spring</view>
+      </view>
+    </view>
+  </view>
+
+  <view class='eventcontainer'>
+    <view>
+        <view class='line'></view>
+        <view class='dot'>4/7</view>
+        <view class='line'></view>
+    </view>
+    <view>
+      <image src='https://mmbiz.qpic.cn/mmbiz_png/8qu48ghsbUXOqjFJ6nApRP1K8W61HD3IeVVIkYw6kOWGAAahJRAMWLaqOpaz79g4hV8fv1O4w7vJ29yql1O6qA/0?wx_fmt=png' class='pic' bindtap='onTapxunguang'></image>
+      <view class='bodycontainer'>
+        <view style='font-weight:bold'>寻光之旅</view>
+      </view>
+    </view>
+  </view>
+
+  <view class='eventcontainer'>
+    <view>
+        <view class='line'></view>
+        <view class='dot'>2/10</view>
+        <view class='line'></view>
+    </view>
+    <view>
+      <image src='https://mmbiz.qpic.cn/mmbiz_jpg/8qu48ghsbUXOqjFJ6nApRP1K8W61HD3I6fBf5Ohpo22XBy5nL4xec5ElCIpdpbvZdYPemwgQFPJUYJNthWdALw/0?wx_fmt=jpeg' class='pic' bindtap='onTapModal2'></image>
+      <view class='bodycontainer'>
+        <view style='font-weight:bold'>心家春节晚会</view>
+      </view>
+    </view>
+  </view>
+
+  <!--以下为2017年内容，请勿修改-->
+  <view class='year' style='background:#E93EFF'>2017</view>
+
+  <view class='eventcontainer'>
+    <view>
+        <view class='line' style='border-left: 5rpx solid #E93EFF;'></view>
+        <view class='dot' style='color: #E93EFF; border: 10rpx solid #E93EFF;'>12/31</view>
+        <view class='line' style='border-left: 5rpx solid #E93EFF;'></view>
+    </view>
+    <view>
+      <image src='https://mmbiz.qlogo.cn/mmbiz_jpg/8qu48ghsbUXOqjFJ6nApRP1K8W61HD3IrEjlnqISfSI9WjBFLXDQrwicgnlibibYqjXQaLuJlJCqPypFr5soWH8lg/0?wx_fmt=jpeg' class='pic' bindtap='onTapbigEvent'></image>
+      <view class='bodycontainer'  style='border:5rpx solid #E93EFF; background:#E93EFF'>
+        <view style='font-weight:bold; text-decoration:underline'>2017心家大事件</view>
+      </view>
+    </view>
+  </view>
+
+  <view class='eventcontainer'>
+    <view>
+        <view class='line' style='border-left: 5rpx solid #E93EFF;'></view>
+        <view class='dot' style='color: #E93EFF; border: 10rpx solid #E93EFF;'>10/28</view>
+        <view class='line' style='border-left: 5rpx solid #E93EFF;'></view>
+    </view>
+    <view>
+      <image src='https://mmbiz.qlogo.cn/mmbiz_jpg/8qu48ghsbUXOqjFJ6nApRP1K8W61HD3IDGr889E7rl69uQH0v2dKqpfMn1n7h8uZfvQiaI7WtejwhZC8P4I4iaLA/0?wx_fmt=jpeg' class='pic' bindtap='onTapModal'></image>
+      <view class='bodycontainer'  style='border:5rpx solid #E93EFF; background:#E93EFF'>
+        <view style='font-weight:bold'>万圣节刻南瓜</view>
+      </view>
+    </view>
+  </view>
+
+  <view class='eventcontainer'>
+    <view>
+        <view class='line' style='border-left: 5rpx solid #E93EFF;'></view>
+        <view class='dot' style='color: #E93EFF; border: 10rpx solid #E93EFF;'>10/7</view>
+        <view class='line' style='border-left: 5rpx solid #E93EFF;'></view>
+    </view>
+    <view>
+      <image src='https://mmbiz.qpic.cn/mmbiz_jpg/8qu48ghsbUXOqjFJ6nApRP1K8W61HD3IgZ1vfZLrQm5hsF2iawfBsNvxwTyqA43Epbgmw1kMDtQSGUU90Wp56qA/0?wx_fmt=jpeg' class='pic' bindtap='onTapModal'></image>
+      <view class='bodycontainer'  style='border:5rpx solid #E93EFF; background:#E93EFF'>
+        <view style='font-weight:bold'>Corn Maze</view>
+      </view>
+    </view>
+  </view>
+
+  <view class='eventcontainer'>
+    <view>
+        <view class='line' style='border-left: 5rpx solid #E93EFF;'></view>
+        <view class='dot' style='color: #E93EFF; border: 10rpx solid #E93EFF;'>9/3</view>
+        <view class='line' style='border-left: 5rpx solid #E93EFF;'></view>
+    </view>
+    <view>
+      <image src='https://mmbiz.qlogo.cn/mmbiz_jpg/8qu48ghsbUXOqjFJ6nApRP1K8W61HD3Ie1vM5FgzYK74IyHibjTDm3CpI1Trg8VaR74YXnuCCezOh87HQgFxJew/0?wx_fmt=jpeg' class='pic' bindtap='onTapModal'></image>
+      <view class='bodycontainer'  style='border:5rpx solid #E93EFF; background:#E93EFF'>
+        <view style='font-weight:bold'>Labor Day BBQ</view>
+      </view>
+    </view>
+  </view>
+
+  <view class='eventcontainer'>
+    <view>
+        <view class='line' style='border-left: 5rpx solid #E93EFF;'></view>
+        <view class='dot' style='color: #E93EFF; border: 10rpx solid #E93EFF;'>4/28</view>
+        <view class='line' style='border-left: 5rpx solid #E93EFF;'></view>
+    </view>
+    <view>
+      <image src='https://mmbiz.qpic.cn/mmbiz_jpg/8qu48ghsbUXOqjFJ6nApRP1K8W61HD3IOj3OzldBG6gBzPMDd9r2icjXgJVsibFYsP0BBFkfziapXvoq6wWXjSGkg/0?wx_fmt=jpeg' class='pic' bindtap='onTapModal'></image>
+      <view class='bodycontainer'  style='border:5rpx solid #E93EFF; background:#E93EFF'>
+        <view style='font-weight:bold'>心家毕业晚会</view>
+      </view>
+    </view>
+  </view>
+
+  <view class='eventcontainer'>
+    <view>
+        <view class='line' style='border-left: 5rpx solid #E93EFF;'></view>
+        <view class='dot' style='color: #E93EFF; border: 10rpx solid #E93EFF;'>3/25</view>
+        <view class='line' style='border-left: 5rpx solid #E93EFF;'></view>
+    </view>
+    <view>
+      <image src='https://mmbiz.qpic.cn/mmbiz_jpg/8qu48ghsbUXOqjFJ6nApRP1K8W61HD3IdIqgg2sHfS7paD1QOZibqeqJcyUVA1HFeDrI3rctCqxiaktOnmCvk4MQ/0?wx_fmt=jpeg' class='pic' bindtap='onTapModal'></image>
+      <view class='bodycontainer'  style='border:5rpx solid #E93EFF; background:#E93EFF'>
+        <view style='font-weight:bold'>D.C.赏樱花</view>
+      </view>
+    </view>
+  </view>
+
+</view>
+
+<!--footer-->
+<view class='rights'>Home of Hearts 2019</view>
