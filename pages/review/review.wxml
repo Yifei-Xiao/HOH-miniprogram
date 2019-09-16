@@ -10,6 +10,20 @@
   <view class='eventcontainer'>
     <view>
         <view class='line' style='border-left: 5rpx solid #87CEEB;'></view>
+        <view class='dot' style='color: #87CEEB; border: 10rpx solid #87CEEB;'>8/23</view>
+        <view class='line' style='border-left: 5rpx solid #87CEEB;'></view>
+    </view>
+    <view>
+      <image src='https://mmbiz.qpic.cn/mmbiz_jpg/8qu48ghsbUXuA4UXkaICvff8HJPxMDNS6WX37uKRY8AGibabug1DaZXDLhQ66AgHGvYEWkvsribUGOfgr1BS1EPg/0?wx_fmt=jpeg' class='pic' bindtap='onTap2019GN'></image>
+      <view class='bodycontainer'  style='border:5rpx solid #87CEEB; background:#87CEEB'>
+        <view style='font-weight:bold'>Game Night</view>
+      </view>
+    </view>
+  </view>
+
+  <view class='eventcontainer'>
+    <view>
+        <view class='line' style='border-left: 5rpx solid #87CEEB;'></view>
         <view class='dot' style='color: #87CEEB; border: 10rpx solid #87CEEB;'>4/26</view>
         <view class='line' style='border-left: 5rpx solid #87CEEB;'></view>
     </view>

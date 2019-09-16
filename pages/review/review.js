@@ -76,4 +76,9 @@ Page({
       url: '/pages/album/2019/2019_Spring_Grad',
     })
   },
+  onTap2019GN() {
+    wx.navigateTo({
+      url: '/pages/album/2019/2019_Game_Night',
+    })
+  },
 });

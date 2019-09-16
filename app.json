@@ -18,7 +18,8 @@
     "pages/album/2018/grad",
     "pages/album/2018/wedding",
     "pages/album/2018/xunguang",
-    "pages/album/2017/bigevent"
+    "pages/album/2017/bigevent",
+    "pages/album/2019/2019_Game_Night"
   ],
   "window": {
     "backgroundTextStyle": "light",
@@ -28,9 +29,10 @@
   },
   "plugins": {
     "tencentvideo": {
-      "version": "1.3.0",
+      "version": "1.3.6",
       "provider": "wxa75efa648b60994b"
     }
   },
-  "sitemapLocation": "sitemap.json"
+  "sitemapLocation": "sitemap.json",
+  "navigateToMiniProgramAppIdList": ["wxfaa08012777a431e"]
 }

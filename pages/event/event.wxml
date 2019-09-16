@@ -4,28 +4,29 @@
   <view>活动预告</view>
 </view>
 
-<!-- 以下为模版 
+<!-- 以下为模版 -->
 <view class='body' style='border:3px dashed #adcd3c;background:#f2fddb; color:crimson'>
-  <view style='line-height:80rpx; font-weight:bold; text-decoration:underline'>春节晚会</view>
+  <view style='line-height:80rpx; font-weight:bold; text-decoration:underline'>迎新晚会</view>
   <view style='font-size:30rpx;font-weight:bold'>无需报名</view>
-  <view style='line-height:80rpx;'>Location: 磐石宣道会</view>
+  <view style='line-height:80rpx;'>Location: Osmond Lobby</view>
   <view style='line-height:80rpx;'>Time: 
-  <text style='font-weight:bold;'>Feb 8</text> Friday 6:00 p.m.</view>
-  <view style='line-height:80rpx;'>Schedule: </view>
+  <text style='font-weight:bold;'>Aug 30</text> Friday 6:00 p.m.</view>
+  <!-- <view style='line-height:80rpx;'>Schedule: </view>
   <view style='font-size:30rpx'>6:00 p.m. 晚饭</view>
   <view style='font-size:30rpx'>7:00 p.m. 晚会开始</view>
-  <view style='font-size:30rpx'>8:30 p.m. 晚会结束</view>
+  <view style='font-size:30rpx'>8:30 p.m. 晚会结束</view> -->
 </view>
+
 
 <view class='body' style='border:5rpx solid #cceff5;background:#fafcfd;color:DeepPink'>
-  <view style='line-height:80rpx; font-weight:bold; text-decoration:underline;'>"点燃"音乐会</view>
-  <view style='font-size:30rpx;font-weight:bold'>无需报名</view>
-  <view style='line-height:80rpx;'>Location: HUB Freeman Auditorium</view>
+  <view style='line-height:80rpx; font-weight:bold; text-decoration:underline;'>迎新郊游BBQ</view>
+  <view class='button' bindtap='onTapSignUp' style='text-decoration:underline'>点击报名</view>
+  <!-- <view style='font-size:30rpx;font-weight:bold'>无需报名</view> -->
+  <view style='line-height:80rpx;'>Location: Bald Eagle Park</view>
   <view style='line-height:80rpx;'>Time: 
-  <text style='font-weight:bold;'>Mar 16</text> Saturday 3:00 p.m.</view>
+  <text style='font-weight:bold;'>Sep 7</text> Saturday 10:00 a.m.</view>
 </view>
 
--->
 
 
 <view style='text-align: center; margin-top:30rpx; margin-bottom:50rpx; color:blue'>更多活动敬请期待~</view>

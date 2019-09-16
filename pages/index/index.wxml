@@ -47,20 +47,26 @@
 <view class='banner'>
   <swiper indicator-dots="{{indicatorDots}}" autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}" circular="true">
 
+    <!--2019 BBQ-->
+    <swiper-item> 
+      <image src="https://mmbiz.qpic.cn/mmbiz_jpg/8qu48ghsbUXuA4UXkaICvff8HJPxMDNSiad8xQBjDhgPKDZphharibQufaJWmgDEB61BeA5ibeMv8m6uJw8rZBNsw/0?wx_fmt=jpeg" style='width:500rpx; height:230rpx' data-post-id='event' bindtap='onTapBanner'></image>
+    </swiper-item>
+
+    <!--2019 Game Night-->
+    <swiper-item>
+      <image src='https://mmbiz.qpic.cn/mmbiz_jpg/8qu48ghsbUXuA4UXkaICvff8HJPxMDNS0hnKR4TnKPDVlY76qHCZC1CUfXOj4SHOnicrBFu5G41Zau9UkNInwKQ/0?wx_fmt=jpeg' style='width:500rpx; height:230rpx' bindtap='onTapAlbum' data-post-id='2019/2019_Game_Night'></image>
+    </swiper-item>
+
     <!--Welcome to HOH--> 
     <swiper-item> 
-      <image src="https://mmbiz.qpic.cn/mmbiz_png/8qu48ghsbUXOqjFJ6nApRP1K8W61HD3IQkO3nBHrAufmcpJdL8ehr9UBu4QicSqZPJz4fpsqaQCzDuQBARovUUw/0?wx_fmt=png" style='width:500rpx; height:250rpx' data-post-id='aboutUs' bindtap='onTapBanner'></image>
+      <image src="https://mmbiz.qpic.cn/mmbiz_png/8qu48ghsbUXOqjFJ6nApRP1K8W61HD3IQkO3nBHrAufmcpJdL8ehr9UBu4QicSqZPJz4fpsqaQCzDuQBARovUUw/0?wx_fmt=png" style='width:500rpx; height:230rpx' data-post-id='aboutUs' bindtap='onTapBanner'></image>
     </swiper-item>
 
-    <!--2019 Grad-->
+    <!--2019 Welcome-->
     <swiper-item> 
-      <image src="https://mmbiz.qpic.cn/mmbiz_jpg/8qu48ghsbUXLeqc2VqkpRPIugm7QowVaITPYGRDWialkANE6PiaccibT0Qw64mpV70wicB3bfzOr0H0fG756ibOV5Lw/0?wx_fmt=jpeg" style='width:500rpx; height:250rpx' data-post-id='2019/2019_Spring_Grad' bindtap='onTapAlbum'></image>
+      <image src="https://mmbiz.qpic.cn/mmbiz_jpg/8qu48ghsbUXuA4UXkaICvff8HJPxMDNSCvQ0Ulpz6ibHtYWL5YSVfVfbvMmPo6MffRibmwcNR4BtYZCAiaHYrvU4g/0?wx_fmt=jpeg" style='width:500rpx; height:230rpx' data-post-id='event' bindtap='onTapBanner'></image>
     </swiper-item>
 
-    <!--Ignite-->
-    <swiper-item>
-      <image src='https://mmbiz.qpic.cn/mmbiz_png/8qu48ghsbUXLeqc2VqkpRPIugm7QowVaNVucgEpcIx603wvdzjNWPPPia5ZBPckwQ3ZCicKnZ2YfghD1fQXRJqiaA/0?wx_fmt=png' style='width:500rpx; height:250rpx' bindtap='onTapAlbum' data-post-id='2019/Dianran'></image>
-    </swiper-item>
   </swiper>
 </view>
 

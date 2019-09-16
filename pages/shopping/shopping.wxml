@@ -63,7 +63,7 @@
   <!--
   <view class='button' bindtap='onTapShopping'>点击报名</view>
   -->
-  <view class='button'>购买请联系怡佳姐</view>
+  <view class='button'>购买请联系怡嘉姐</view>
 
   <text style='font-size:small;font-style:italic;margin:30rpx;'>“地上所有的，无论是地上的种子，是树上的果子，十分之一是耶和华的，是归给耶和华为圣的。" (利未记 27:30)</text>
 </view>

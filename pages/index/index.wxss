@@ -47,6 +47,7 @@
 }
 
 .banner{
-  margin-top: 100rpx;
-  margin-left: 125rpx;
-}
+  padding-top: 100rpx;
+  padding-left: 125rpx;
+  padding-right: 110rpx;
+} 

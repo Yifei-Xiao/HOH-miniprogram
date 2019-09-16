@@ -1,9 +1,9 @@
 Page({
   data: {
     mode: "scaleToFill",
-    indicatorDots: false,
+    indicatorDots: true,
     autoplay: true,
-    interval: 3000,
+    interval: 10000,
     duration: 1000,
     img: ['https://mmbiz.qpic.cn/mmbiz_jpg/8qu48ghsbUUmJykev6AdK1j0RD2Qg7aG4ibKjHboPgejEL4N0QVchJKSfjItGyNmhuxI0G1QKbgkKVxpuBMkMHw/0?wx_fmt=jpeg']
   },
